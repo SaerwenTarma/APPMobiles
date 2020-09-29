@@ -1,7 +1,8 @@
-function cuantosCumplen (filtro, notas)  {
-    return notas.some( i => i===8);
+function contiene (valor, notas)  {
+   console.log (notas.some(i => i===valor));
 };
 
 
 
-console.log(   cuantosCumplen(8,[7,8,9])   )  ;
+contiene (8,[7,8,9]) ;
+
