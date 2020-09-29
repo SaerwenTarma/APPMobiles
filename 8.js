@@ -1,5 +1,7 @@
-function cuantosCumplen (cuantoFiltro, notas)  {
-    return notas.filter(i => cuantoFiltro(i));
+
+
+function cuantosCumplen (Filtro, notas)  {
+   console.log (notas.filter(Filtro));
 };
 
 function even (a){
@@ -7,4 +9,6 @@ return a % 2 == 0;
 
 };
 
-console.log(cuantosCumplen(even,[7,9,25,42]));
+cuantosCumplen(even,[7,9,25,42]);
+
+ 
